@@ -55,7 +55,7 @@ const Index = () => {
           <FormLabel htmlFor="targetUser">Target User</FormLabel>
           <Input id="targetUser" name="targetUser" value={brandInfo.targetUser} onChange={handleChange} />
         </FormControl>
-        <Button rightIcon={<FaArrowRight />} colorScheme="teal" onClick={handleSubmit}>
+        <Button rightIcon={<FaArrowRight />} colorScheme="blackAlpha" onClick={handleSubmit}>
           Generate Identity
         </Button>
       </VStack>
