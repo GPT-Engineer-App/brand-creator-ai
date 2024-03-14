@@ -30,9 +30,7 @@ const BrandIdentity = () => {
           Selected Font:
         </Text>
         {}
-        <Text fontFamily={window.history.state.selectedVisuals[2]} fontSize="20px">
-          {window.history.state.selectedVisuals[2]}
-        </Text>
+        <Text fontFamily="Your Font Family">Sample Text</Text>
       </Box>
     </Box>
   );
