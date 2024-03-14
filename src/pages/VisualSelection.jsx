@@ -44,7 +44,7 @@ const VisualSelection = () => {
           </Box>
         ))}
       </SimpleGrid>
-      <Button mt={10} rightIcon={<FaArrowRight />} colorScheme="black" onClick={handleSubmit}>
+      <Button mt={10} rightIcon={<FaArrowRight />} colorScheme="blackAlpha" onClick={handleSubmit}>
         Continue to Brand Identity
       </Button>
     </Box>
