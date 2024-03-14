@@ -40,7 +40,7 @@ const VisualSelection = () => {
       <SimpleGrid columns={3} spacing={6}>
         {visuals.map((url, index) => (
           <Box key={index} boxShadow="md" borderRadius="lg" overflow="hidden" cursor="pointer" borderColor={selectedVisuals.includes(url) ? "blue.500" : "transparent"} borderWidth="2px" onClick={() => toggleVisualSelection(url)}>
-            <Image src={url} alt={`Visual ${index + 1}`} ratio={1} />
+            <Image src={url} alt={`Visual ${index + 1}`} objectFit="cover" width="100%" height="100%" />
           </Box>
         ))}
       </SimpleGrid>
