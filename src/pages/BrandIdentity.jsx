@@ -3,7 +3,7 @@ import { Box, Heading, Text, Image } from "@chakra-ui/react";
 
 const BrandIdentity = () => {
   return (
-    <Box>
+    <Box p={10}>
       <Heading as="h1" size="xl" mb={4}>
         Your Brand Identity
       </Heading>

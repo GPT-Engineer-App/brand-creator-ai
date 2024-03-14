@@ -34,7 +34,7 @@ const Index = () => {
   };
 
   return (
-    <Container maxW="container.md" py={10}>
+    <Container maxW="container.md" p={10}>
       <Heading mb={6}>Brand Identity Generator</Heading>
       <VStack spacing={4} as="form" onSubmit={(e) => e.preventDefault()}>
         <FormControl isRequired>
