@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, SimpleGrid, Image, Button, useToast } from "@chakra-ui/react";
+import { Box, SimpleGrid, Image, Button, useToast, Heading } from "@chakra-ui/react";
 import { FaArrowRight } from "react-icons/fa";
 
 const visuals = ["https://source.unsplash.com/random/1", "https://source.unsplash.com/random/2", "https://source.unsplash.com/random/3", "https://source.unsplash.com/random/4", "https://source.unsplash.com/random/5", "https://source.unsplash.com/random/6", "https://source.unsplash.com/random/7", "https://source.unsplash.com/random/8", "https://source.unsplash.com/random/9"];
@@ -36,6 +36,7 @@ const VisualSelection = () => {
 
   return (
     <Box p={10}>
+      <Heading mb={6}>Select visual direction</Heading>
       <SimpleGrid columns={3} spacing={6}>
         {visuals.map((url, index) => (
           <Box key={index} boxShadow="md" borderRadius="lg" overflow="hidden" cursor="pointer" borderColor={selectedVisuals.includes(url) ? "blue.500" : "transparent"} borderWidth="2px" onClick={() => toggleVisualSelection(url)}>
