@@ -12,7 +12,7 @@ const BrandIdentity = () => {
           <Text fontSize="lg" mb={2}>
             Logo:
           </Text>
-          <Image src={window.history.state.selectedVisuals[0]} alt="Selected Logo" mb={4} />
+          <Image src={window.history.state.selectedVisuals[0]} alt="Selected Logo" mb={4} maxW="500px" />
         </Box>
         <Box>
           <Text fontSize="lg" mb={2}>
