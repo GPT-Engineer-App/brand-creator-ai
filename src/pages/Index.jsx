@@ -25,11 +25,10 @@ const Index = () => {
 
     window.history.pushState(
       {
-        brandIdentity: identity,
         brandInfo: brandInfo,
       },
-      "Brand Identity",
-      "/brand-identity",
+      "Visual Selection",
+      "/select-visuals",
     );
     window.location.reload();
   };

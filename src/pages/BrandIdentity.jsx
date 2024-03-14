@@ -12,7 +12,9 @@ const BrandIdentity = () => {
           Logo:
         </Text>
         {}
-        <Image src="path-to-your-logo.png" alt="Brand Logo" />
+        {window.history.state.selectedVisuals.map((visual, index) => (
+          <Image key={index} src={visual} alt={`Selected Visual ${index + 1}`} mb={4} />
+        ))}
       </Box>
       <Box mb={6}>
         <Text fontSize="lg" mb={2}>
