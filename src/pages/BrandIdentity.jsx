@@ -7,8 +7,8 @@ const BrandIdentity = () => {
       <Heading as="h1" size="xl" mb={4}>
         Your Brand Identity
       </Heading>
-      <Box display="flex" alignItems="center" mb={6}>
-        <Box mr={8}>
+      <Box display="flex" mb={6}>
+        <Box mr={8} alignSelf="flex-start">
           <Text fontSize="lg" mb={2}>
             Logo:
           </Text>
